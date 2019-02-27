@@ -1,0 +1,57 @@
+* {
+    font-family: Cursive;
+  }
+  
+  body {
+    background: rgb(109, 109, 235);
+    justify-content: center;
+  }
+  
+.container {
+    display: grid;
+    justify-content: center; 
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+  }
+  
+.box{
+    background: rgba(255, 255, 255, 0.295);
+    display: grid;
+    border: 1px solid rgb(76, 84, 128);
+    align-items: center;
+    justify-items: center;
+  }
+  
+.X:after {
+    font-size: 50px;
+    color: blue;
+    content: "X";
+  }
+  
+.O:after {
+    font-size: 50px;
+    content: "O";
+    color: red;
+  }
+  
+.msg {
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+    color: gold;
+    font-size: 22px;
+  }
+  
+.welcome {
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+    color: rgb(123, 243, 207);
+    font-size: 40pt;
+  }
+.reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+}
