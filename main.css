@@ -60,8 +60,8 @@
     width: 100vw;
   }
   .container {
-    grid-template-columns: repeat(3, 9vh);
-    grid-template-rows: repeat(3, 9vh);
+    grid-template-columns: repeat(3, 11vh);
+    grid-template-rows: repeat(3, 11vh);
   }
 
 }
